@@ -1,0 +1,182 @@
+/*Página*/
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(125, 155, 255);
+}
+
+.centralizado {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*Header*/
+
+.banner {
+    width: 100%;
+}
+
+.ul-header{
+    display: inline;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ul-header li{
+    display: inline-block;
+    width: 25%;
+    font-size: 1.2em;
+    margin: 10px 0 0 10%;
+    padding: 10px;
+}
+
+.ul-header li a{
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.ul-header li a::before{
+    content: "• ";
+}
+
+.ul-header li a:hover{
+    text-decoration: underline;
+    color: rgb(154, 154, 255);
+}
+
+/*Navegação*/
+
+.navegacao {
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 20px 15px 5px;
+}
+
+.navegacao ul {
+    background-color: black;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.navegacao a {
+    color: white;
+    padding: 2px;
+    margin: 20px;
+    font-size: 1.35;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+.navegacao a::before {
+    content: '|— ';
+}
+
+.navegacao a:hover {
+    text-decoration: underline;
+}
+
+/*Texto, Imagens, Listas*/
+
+.titulo {
+    font-size: 2em;
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 15px 0 15px 15%;
+}
+
+.paragrafo {
+    font-size: 1.25em;
+    text-indent: 2em;
+    padding: 5px 0 5px 5px;
+}
+
+.paragrafo strong {
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.paragrafo a:hover{
+    color: white;
+    background-color: black;
+}
+
+figure {
+    margin: 15px auto 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+.imagem {
+    width: 60%;
+}
+
+figure figcaption {
+    padding: 5px 0 0 15px;
+    margin: 5px 0 10px 0;
+    font-size: 1em;
+}
+
+.paragrafo a {
+    color: blue;
+    background-color: rgb(122, 191, 255);
+}
+
+.ul-beneficios {
+    list-style-type: disc;
+    font-size: 1.20em;
+    margin-left: 25%;
+    font-style: italic;
+}
+
+.para-ao-topo {
+    display: inline-block;
+    font-size: 1.1em;
+    text-align: right;
+    width: 90%;
+    margin-top: 1em;
+}
+
+.para-ao-topo a {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.para-ao-topo a:hover{
+    text-decoration: underline;
+    color: rgb(201, 201, 201);
+}
+
+/*Footer*/
+
+footer{
+    background-color: rgb(17, 0, 200);
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.logo-footer {
+    width: 20%;
+    margin: 10px 5%;
+    display: inline-block;
+}
+
+.copyright {
+    font-size: 1.2em;
+    color:rgb(255, 255, 255);
+}
+
+/*Contato*/
